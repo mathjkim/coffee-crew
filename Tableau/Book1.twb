@@ -28,305 +28,6 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
-    <datasource caption='FAOSTAT_data_Coffee_Production' inline='true' name='federated.0ipfru505bbg291adxgbw0wxjdbw' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='FAOSTAT_data_Coffee_Production' name='textscan.1ezjfor15pk2g916ljcbc097b3k2'>
-            <connection class='textscan' directory='/Users/parhamhamidi/Library/CloudStorage/OneDrive-UBC/Desktop/Erdos/coffee-crew/data' filename='FAOSTAT_data_Coffee_Production.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ezjfor15pk2g916ljcbc097b3k2' name='FAOSTAT_data_Coffee_Production.csv' table='[FAOSTAT_data_Coffee_Production#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
-            <column datatype='string' name='Area' ordinal='0' />
-            <column datatype='integer' name='Year' ordinal='1' />
-            <column datatype='real' name='Value' ordinal='2' />
-            <column datatype='string' name='F4' ordinal='3' />
-            <column datatype='string' name='Unit' ordinal='4' />
-            <column datatype='string' name='F6' ordinal='5' />
-            <column datatype='string' name='Flag' ordinal='6' />
-            <column datatype='string' name='Flag Description' ordinal='7' />
-            <column datatype='string' name='F9' ordinal='8' />
-            <column datatype='string' name='F10' ordinal='9' />
-            <column datatype='string' name='F11' ordinal='10' />
-            <column datatype='string' name='Element' ordinal='11' />
-            <column datatype='string' name='Item' ordinal='12' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ezjfor15pk2g916ljcbc097b3k2' name='FAOSTAT_data_Coffee_Production.csv' table='[FAOSTAT_data_Coffee_Production#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
-            <column datatype='string' name='Area' ordinal='0' />
-            <column datatype='integer' name='Year' ordinal='1' />
-            <column datatype='real' name='Value' ordinal='2' />
-            <column datatype='string' name='F4' ordinal='3' />
-            <column datatype='string' name='Unit' ordinal='4' />
-            <column datatype='string' name='F6' ordinal='5' />
-            <column datatype='string' name='Flag' ordinal='6' />
-            <column datatype='string' name='Flag Description' ordinal='7' />
-            <column datatype='string' name='F9' ordinal='8' />
-            <column datatype='string' name='F10' ordinal='9' />
-            <column datatype='string' name='F11' ordinal='10' />
-            <column datatype='string' name='Element' ordinal='11' />
-            <column datatype='string' name='Item' ordinal='12' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Area</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Area]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Area</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Year]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Year</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Value</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Value]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Value</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F4</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F4]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>F4</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Unit</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Unit]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Unit</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F6</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F6]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>F6</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Flag</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Flag]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Flag</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Flag Description</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Flag Description]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Flag Description</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F9</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F9]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>F9</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F10</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F10]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>F10</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F11</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[F11]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>F11</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Element</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Element]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Element</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Item</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Item]</local-name>
-            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
-            <remote-alias>Item</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Country' datatype='string' name='[Area]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
-        <semantic-values semantic-role='[Country].[Name]'>
-          <semantic-value key='&quot;China, mainland&quot;' value='&quot;China&quot;' />
-          <semantic-value key='&quot;China, Taiwan Province of&quot;' value='&quot;Taiwan&quot;' />
-          <semantic-value key='&quot;Ethiopia PDR&quot;' value='&quot;Ethiopia&quot;' />
-        </semantic-values>
-      </column>
-      <column caption='Total Production' datatype='real' name='[Value]' role='measure' type='quantitative'>
-        <desc>
-          <formatted-text />
-        </desc>
-      </column>
-      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='FAOSTAT_data_Coffee_Production.csv' datatype='table' name='[__tableau_internal_object_id__].[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]' role='measure' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='FAOSTAT_data_Coffee_Production.csv' id='FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598'>
-            <properties context=''>
-              <relation connection='textscan.1ezjfor15pk2g916ljcbc097b3k2' name='FAOSTAT_data_Coffee_Production.csv' table='[FAOSTAT_data_Coffee_Production#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
-                  <column datatype='string' name='Area' ordinal='0' />
-                  <column datatype='integer' name='Year' ordinal='1' />
-                  <column datatype='real' name='Value' ordinal='2' />
-                  <column datatype='string' name='F4' ordinal='3' />
-                  <column datatype='string' name='Unit' ordinal='4' />
-                  <column datatype='string' name='F6' ordinal='5' />
-                  <column datatype='string' name='Flag' ordinal='6' />
-                  <column datatype='string' name='Flag Description' ordinal='7' />
-                  <column datatype='string' name='F9' ordinal='8' />
-                  <column datatype='string' name='F10' ordinal='9' />
-                  <column datatype='string' name='F11' ordinal='10' />
-                  <column datatype='string' name='Element' ordinal='11' />
-                  <column datatype='string' name='Item' ordinal='12' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='FAOSTAT_data_Yield' inline='true' name='federated.1b2znez1ycgpn5148vy3v05b3ri9' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -400,6 +101,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Domain</remote-name>
@@ -414,6 +116,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Area Code (M49)</remote-name>
@@ -425,6 +128,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Area</remote-name>
@@ -439,6 +143,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Element Code</remote-name>
@@ -450,6 +155,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Element</remote-name>
@@ -464,6 +170,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Item Code (CPC)</remote-name>
@@ -475,6 +182,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Item</remote-name>
@@ -489,6 +197,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Year Code</remote-name>
@@ -500,6 +209,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Year</remote-name>
@@ -512,6 +222,7 @@
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Unit</remote-name>
@@ -526,6 +237,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Value</remote-name>
@@ -537,6 +249,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Flag</remote-name>
@@ -551,6 +264,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Flag Description</remote-name>
@@ -565,6 +279,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Yield.csv_5FAE6A88CFCF4967BD93D20B59E0CA1C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -700,6 +415,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Year</remote-name>
@@ -712,6 +428,7 @@
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_RCA_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Production</remote-name>
@@ -727,6 +444,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Exports</remote-name>
@@ -742,6 +460,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Domestic_consumption</remote-name>
@@ -757,6 +476,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Gross_opening_stocks</remote-name>
@@ -772,6 +492,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Imports</remote-name>
@@ -787,6 +508,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Re_exports</remote-name>
@@ -802,6 +524,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Price_grower</remote-name>
@@ -817,6 +540,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Price_retail</remote-name>
@@ -832,6 +556,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Consumption</remote-name>
@@ -847,6 +572,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country_code</remote-name>
@@ -862,6 +588,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Latitude</remote-name>
@@ -877,6 +604,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Longitude</remote-name>
@@ -892,6 +620,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country_type</remote-name>
@@ -907,6 +636,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Continent</remote-name>
@@ -922,6 +652,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Production (tonnes)</remote-name>
@@ -937,6 +668,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Exports (tonnes)</remote-name>
@@ -952,6 +684,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>imports (tonnes)</remote-name>
@@ -967,6 +700,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Domestic_consumption (tonnes)</remote-name>
@@ -982,6 +716,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham_0214AA8E99DE4ADFB38D5A417938CD19]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -1121,6 +856,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Year</remote-name>
@@ -1133,6 +869,7 @@
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Production</remote-name>
@@ -1144,6 +881,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Exports</remote-name>
@@ -1155,6 +893,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Domestic_consumption</remote-name>
@@ -1166,6 +905,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Gross_opening_stocks</remote-name>
@@ -1177,6 +917,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Imports</remote-name>
@@ -1192,6 +933,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Re_exports</remote-name>
@@ -1207,6 +949,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Price_grower</remote-name>
@@ -1218,6 +961,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Price_retail</remote-name>
@@ -1233,6 +977,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Consumption</remote-name>
@@ -1248,6 +993,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country_code</remote-name>
@@ -1262,6 +1008,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Latitude</remote-name>
@@ -1273,6 +1020,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Longitude</remote-name>
@@ -1284,6 +1032,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country_type</remote-name>
@@ -1298,6 +1047,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Continent</remote-name>
@@ -1312,6 +1062,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Production (tonnes)</remote-name>
@@ -1323,6 +1074,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Exports (tonnes)</remote-name>
@@ -1334,6 +1086,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>imports (tonnes)</remote-name>
@@ -1345,6 +1098,7 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Domestic_consumption (tonnes)</remote-name>
@@ -1356,6 +1110,7 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[coffee-location-parham.csv_C30DBF649EF848F19500A6AF381EBA96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -1701,6 +1456,301 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='FAOSTAT_data_Coffee_Production' inline='true' name='federated.0ipfru505bbg291adxgbw0wxjdbw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FAOSTAT_data_Coffee_Production' name='textscan.1ezjfor15pk2g916ljcbc097b3k2'>
+            <connection class='textscan' directory='/Users/parhamhamidi/Library/CloudStorage/OneDrive-UBC/Desktop/Erdos/coffee-crew/data' filename='FAOSTAT_data_Coffee_Production.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ezjfor15pk2g916ljcbc097b3k2' name='FAOSTAT_data_Coffee_Production.csv' table='[FAOSTAT_data_Coffee_Production#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Area' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Value' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='Unit' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='Flag' ordinal='6' />
+            <column datatype='string' name='Flag Description' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='Element' ordinal='11' />
+            <column datatype='string' name='Item' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ezjfor15pk2g916ljcbc097b3k2' name='FAOSTAT_data_Coffee_Production.csv' table='[FAOSTAT_data_Coffee_Production#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Area' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='real' name='Value' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='Unit' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='Flag' ordinal='6' />
+            <column datatype='string' name='Flag Description' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='Element' ordinal='11' />
+            <column datatype='string' name='Item' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unit]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Unit</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Flag]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Flag</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Flag Description]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Flag Description</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Element</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Element]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Element</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Item]</local-name>
+            <parent-name>[FAOSTAT_data_Coffee_Production.csv]</parent-name>
+            <remote-alias>Item</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Country' datatype='string' name='[Area]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;China, mainland&quot;' value='&quot;China&quot;' />
+          <semantic-value key='&quot;China, Taiwan Province of&quot;' value='&quot;Taiwan&quot;' />
+          <semantic-value key='&quot;Ethiopia PDR&quot;' value='&quot;Ethiopia&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Total Production' datatype='real' name='[Value]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='FAOSTAT_data_Coffee_Production.csv' datatype='table' name='[__tableau_internal_object_id__].[FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='FAOSTAT_data_Coffee_Production.csv' id='FAOSTAT_data_Coffee_Production.csv_20648A8A252C455E9233D6177FBD7598'>
+            <properties context=''>
+              <relation connection='textscan.1ezjfor15pk2g916ljcbc097b3k2' name='FAOSTAT_data_Coffee_Production.csv' table='[FAOSTAT_data_Coffee_Production#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='Area' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='real' name='Value' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='Unit' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='Flag' ordinal='6' />
+                  <column datatype='string' name='Flag Description' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='Element' ordinal='11' />
+                  <column datatype='string' name='Item' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -1744,7 +1794,7 @@
           <style-rule element='axis'>
             <format attr='title' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' scope='cols' value='Year' />
             <encoding attr='space' class='0' domain-expand='false' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[fVal:sum:Production (tonnes):qk]' field-type='quantitative' scope='rows' type='space' />
-            <encoding attr='space' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' field-type='quantitative' major-origin='#2006-07-02 12:00:00#' major-spacing='1' major-units='years' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' field-type='quantitative' major-origin='#2006-07-02 12:00:00#' major-spacing='1.0' major-units='years' scope='cols' type='space' />
           </style-rule>
         </style>
         <panes>
@@ -1889,7 +1939,7 @@
           <style-rule element='axis'>
             <format attr='auto-subtitle' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' scope='cols' value='false' />
             <format attr='title' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' scope='cols' value='Year' />
-            <encoding attr='space' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' field-type='quantitative' major-origin='#2002-01-07 00:00:00#' major-spacing='1' major-units='years' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[tyr:Year:qk]' field-type='quantitative' major-origin='#2002-01-07 00:00:00#' major-spacing='1.0' major-units='years' scope='cols' type='space' />
             <encoding attr='space' class='0' domain-expand='false' field='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[sum:Production (tonnes):qk]' field-type='quantitative' scope='rows' type='space' />
           </style-rule>
         </style>
@@ -2120,43 +2170,41 @@
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
-            <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
-              <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
-                <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
-                  <zone h='98000' id='3' name='Map' w='82400' x='800' y='1000'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
+            <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+                <zone h='98000' id='3' name='Map' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
                 </zone>
-                <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
-                  <zone h='8125' id='8' name='Map' pane-specification-id='0' param='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[sum:Production (tonnes):qk]' type-v2='color' w='16000' x='83200' y='1000'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
-                  <zone count='1' h='13750' id='9' name='Map' name1='Share of global production' synchronized='1' type-v2='currpage' w='16000' x='83200' y='9125'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
-                  <zone h='76125' id='17' name='Share of global production' pane-specification-id='0' param='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[none:Country:nk]' type-v2='color' w='16000' x='83200' y='22875'>
-                    <zone-style>
-                      <format attr='border-color' value='#000000' />
-                      <format attr='border-style' value='none' />
-                      <format attr='border-width' value='0' />
-                      <format attr='margin' value='4' />
-                    </zone-style>
-                  </zone>
+              </zone>
+              <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+                <zone h='8125' id='8' name='Map' pane-specification-id='0' param='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[sum:Production (tonnes):qk]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone count='1' h='13750' id='9' name='Map' name1='Share of global production' synchronized='1' type-v2='currpage' w='16000' x='83200' y='9125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='76125' id='17' name='Share of global production' pane-specification-id='0' param='[federated.1j6yrjj1o1ebyy0znnm9o01ywov9].[none:Country:nk]' type-v2='color' w='16000' x='83200' y='22875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
                 </zone>
               </zone>
             </zone>
@@ -2174,8 +2222,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='22' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='24' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Map' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2267,8 +2315,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='12' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Production around the world' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2355,8 +2403,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='17' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Global productivity over the years' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2726,7 +2774,7 @@
           </current-page>
         </viewpoint>
       </viewpoints>
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{8CC6DEB0-80FB-48BF-AA9A-F7262E9C9EB3}' />
     </window>
     <window class='dashboard' name='Production of the world and Brazil'>
@@ -2738,7 +2786,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{27C8A675-5492-48C5-9424-98C23F3FA55C}' />
     </window>
     <window class='dashboard' name='Map and Pie chart'>
@@ -2766,7 +2814,7 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{57497511-9884-48CD-95C9-51173A4AE5AC}' />
     </window>
   </windows>
