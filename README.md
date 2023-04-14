@@ -14,7 +14,7 @@ This project is part of The Erdös Institute's data visualization mini-course. J
 
 - Historical Data on the Global Coffee Trade https://www.ico.org/new_historical.asp 
 
-International Coffee Organization(ICO) provides data on coffee industry over 30 years between 1990-2019. We select 9 .xlsx files: production, domestic consumption, gross opening stocks, exports, imports, re-exports, price to growers, retail price, and consumption recorded for different countries and years.
+International Coffee Organization(ICO) provides data on coffee industry over 30 years between 1990-2019. We select 9 .xlsx files: production, domestic consumption, gross opening stocks, exports, imports, re-exports, price to growers, retail price, and consumption recorded for different countries and years. 5 of them --production, domestic consumption, gross opening stocks, exports, price to growers-- includes data of the () exporting countries and 4 of them has data of of () importing countries.
 
 - Population
 - Coffee Yield per ha
