@@ -3,7 +3,7 @@
 We analyze historical data on the global coffee trade from the [International Coffee Organization (ICO)](https://www.ico.org/new_historical.asp) and the [Food and Agriculture Organization (FAO) of the United Nations](https://www.fao.org). We make an interactive dashboard presenting production, consumption, exports, imports, and price for different countries and years.
 
 <p align="center">
-<img src="coffee_cover_image.jpg" width = "576" height="360" title = "Coffee Trend" />
+<img src="image/coffee_cover_image.jpg" width = "576" height="360" title = "Coffee Trend" />
  </p>
 
 This project is part of The Erdös Institute's data visualization mini-course. Jimin Kim, Parham Hamidi, Anirban Sharma, and Elizabeth Campolongo collaborated to make a Tableaux story and presented it in a 2-minute video. 
@@ -40,19 +40,32 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 ## Analysis
 
 1. Cross regional analysis on price paid to growers by coffee type and imports.
+<p align="center">
+<img src="image/pricemap.jpg"/>
+ </p>
 
  United States and Germany imports almost half of the coffee beans out of the total imports. 
 
 2. Production trend by time. 
+<p align="center">
+<img src="image/production.jpg"/>
+<img src="image/linear.jpg"/>
+ </p>
 
   The production of coffee is increasing in general. It has increased more than twice compared to 30 years ago. 
 72% of coffee beans are produced by Top 5 countries: Brazil, Viet Nam, Colombia, Indonesia, and Ethiopia. Among them, Brazil has consistently been at the top. The increasing trend of production by the Top 2 countries is more significant than others. There are some feature showing a linear relationship. More production leads to more exports, but over-production leads to lower prices for growers. 
 
 3. Land efficiency of coffee producing countries.
+<p align="center">
+<img src="image/landeff1990.jpg"/>
+<img src="image/landeff2019.jpg"/>
+ </p>
 
  As global production increases over time, global land efficiency also increased, which is the production per unit land(hg/ha). Global production has been growing faster than land efficiency. Almost all countries have improved their land efficiency over the years. However, for example, Fiji's land efficiency has been significantly dropped down. Land efficiency of Fiji was top in 1990 but the one of China became top in 2019.
 
 4. Domenstic consumption vs population growth.
-
+<p align="center">
+<img src="image/coffeepercapita.jpg"/>
+ </p>
 
 
