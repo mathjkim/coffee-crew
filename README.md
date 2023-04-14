@@ -48,8 +48,8 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 
 2. Production trend by time. 
 <p align="center">
-<img src="image/production"/>
-<img src="image/linear"/>
+<img src="image/production.png"/>
+<img src="image/linear.png"/>
  </p>
 
   The production of coffee is increasing in general. It has increased more than twice compared to 30 years ago. 
@@ -57,15 +57,15 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 
 3. Land efficiency of coffee producing countries.
 <p align="center">
-<img src="image/landeff1990"/>
-<img src="image/landeff2019"/>
+<img src="image/landeff1990.png"/>
+<img src="image/landeff2019.png"/>
  </p>
 
  As global production increases over time, global land efficiency also increased, which is the production per unit land(hg/ha). Global production has been growing faster than land efficiency. Almost all countries have improved their land efficiency over the years. However, for example, Fiji's land efficiency has been significantly dropped down. Land efficiency of Fiji was top in 1990 but the one of China became top in 2019.
 
 4. Domenstic consumption vs population growth.
 <p align="center">
-<img src="image/coffeepercapita"/>
+<img src="image/coffeepercapita.png"/>
  </p>
 
 
