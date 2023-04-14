@@ -44,7 +44,7 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 <img src="image/pricemap.png"/>
  </p>
 
- United States and Germany imports almost half of the coffee beans out of the total imports. Jamaican farmers are consistently the highest (or nearly highest) paid, with only Bolivian farmers surpassing them in recent years. However, farmers from top producers like Brazil (and more recently, Viet Nam), are paid significantly less, on par with the vast majority of other producers.
+ United States and Germany import almost half of the coffee beans out of the total imports. The relative percentages of imports and price of coffee among consumer nations don’t change much over the 30 year period we examine. On the map, we have pie charts depicting the distribution of different types of coffee grown in producing countries. The size of these charts further corresponds to the average amount paid to the farmers growing the coffee. Jamaican farmers are consistently the highest (or nearly highest) paid, with only Bolivian farmers surpassing them in recent years--both grow non-Columbian mild beans. However, farmers from top producers like Brazil (and more recently, Viet Nam), are paid significantly less, on par with the vast majority of other producers.
  
 #### Production trend by time. 
 <p align="center">
