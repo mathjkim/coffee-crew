@@ -41,7 +41,7 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 
 1. Cross regional analysis on price paid to growers by coffee type and imports.
 <p align="center">
-<img src="image/pricemap"/>
+<img src="image/pricemap.png"/>
  </p>
 
  United States and Germany imports almost half of the coffee beans out of the total imports. 
