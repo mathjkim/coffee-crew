@@ -9,6 +9,7 @@ We analyze historical data on the global coffee trade from the [International Co
 This project is part of The Erdös Institute's data visualization mini-course. Jimin Kim, Parham Hamidi, Anirban Sharma, and Elizabeth Campolongo collaborated to make a Tableaux story and presented it in a 2-minute video. 
 
 ## Methods
+- Data merging: python
 - Data Visualization: python, Tableuax
 - Statistical Analysis
 
