@@ -39,11 +39,19 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 ## Analysis
 
 1. Cross regional analysis on price paid to growers by coffee type and imports.
+
+ United States and Germany imports almost half of the coffee beans out of the total imports. 
+
 2. Production trend by time. 
 
   The production of coffee is increasing in general. It has increased more than twice compared to 30 years ago. 
 72% of coffee beans are produced by Top 5 countries: Brazil, Viet Nam, Colombia, Indonesia, and Ethiopia. Among them, Brazil has consistently been at the top. The increasing trend of production by the Top 2 countries is more significant than others. There are some feature showing a linear relationship. More production leads to more exports, but over-production leads to lower prices for growers. 
 
 3. Land efficiency of coffee producing countries.
-4. Domenstic consumption vs population growth
+
+ As global production increases over time, global land efficiency also increased, which is the production per unit land(hg/ha). Global production has been growing faster than land efficiency. Almost all countries have improved their land efficiency over the years. However, for example, Fiji's land efficiency has been significantly dropped down. Land efficiency of Fiji was top in 1990 but the one of China became top in 2019.
+
+4. Domenstic consumption vs population growth.
+
+
 
