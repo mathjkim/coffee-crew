@@ -29,8 +29,8 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 
 ## Analysis
 
--1. Cross regional analysis on 'price paid to growers' by coffee type and 'imports'.
--2. Production trend by time. 
--3. Land efficiency of coffee producing countries.
--4. Domenstic consumption vs population growth
+1. Cross regional analysis on 'price paid to growers' by coffee type and 'imports'.
+2. Production trend by time. 
+3. Land efficiency of coffee producing countries.
+4. Domenstic consumption vs population growth
 
