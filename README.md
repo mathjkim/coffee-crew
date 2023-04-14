@@ -12,12 +12,12 @@ This project is part of The Erdös Institute's data visualization mini-course. J
 
 #### Data Collection
 
-Historical Data on the Global Coffee Trade https://www.ico.org/new_historical.asp 
+- Historical Data on the Global Coffee Trade https://www.ico.org/new_historical.asp 
 
 International Coffee Organization(ICO) provides data on coffee industry over 30 years between 1990-2019. We use 9 .xlsx files: production, domestic consumption, gross opening stocks, exports, imports, re-exports, price to growers, retail price, and consumption recorded for different countries and years.
 
-Population
-Coffee Yield per ha
+- Population
+- Coffee Yield per ha
 
 #### Data Cleaning
 
