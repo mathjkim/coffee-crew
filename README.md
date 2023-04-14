@@ -41,15 +41,15 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 
 1. Cross regional analysis on price paid to growers by coffee type and imports.
 <p align="center">
-<img src="image/pricemap.jpg"/>
+<img src="image/pricemap"/>
  </p>
 
  United States and Germany imports almost half of the coffee beans out of the total imports. 
 
 2. Production trend by time. 
 <p align="center">
-<img src="image/production.jpg"/>
-<img src="image/linear.jpg"/>
+<img src="image/production"/>
+<img src="image/linear"/>
  </p>
 
   The production of coffee is increasing in general. It has increased more than twice compared to 30 years ago. 
@@ -57,15 +57,15 @@ Each excel file should be a feature in the dataframe in pandas. Our goal is to c
 
 3. Land efficiency of coffee producing countries.
 <p align="center">
-<img src="image/landeff1990.jpg"/>
-<img src="image/landeff2019.jpg"/>
+<img src="image/landeff1990"/>
+<img src="image/landeff2019"/>
  </p>
 
  As global production increases over time, global land efficiency also increased, which is the production per unit land(hg/ha). Global production has been growing faster than land efficiency. Almost all countries have improved their land efficiency over the years. However, for example, Fiji's land efficiency has been significantly dropped down. Land efficiency of Fiji was top in 1990 but the one of China became top in 2019.
 
 4. Domenstic consumption vs population growth.
 <p align="center">
-<img src="image/coffeepercapita.jpg"/>
+<img src="image/coffeepercapita"/>
  </p>
 
 
