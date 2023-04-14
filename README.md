@@ -20,8 +20,13 @@ This project is part of The Erdös Institute's data visualization mini-course. J
 
 International Coffee Organization(ICO) provides data on coffee industry over 30 years between 1990-2019. We select 9 .xlsx files: production, domestic consumption, gross opening stocks, exports, imports, re-exports, price to growers, retail price, and consumption recorded for different countries and years. 5 of them --production, domestic consumption, gross opening stocks, exports, price to growers-- includes data of the () exporting countries and 4 of them has data of of () importing countries.
 
-- Population
-- Coffee Yield per ha
+- World Population https://data.worldbank.org/indicator/SP.POP.TOTL 
+
+This dataset contains yearly population of all the countries from 1960 to 2021. We extract the population of the countries (in the ICO dataset) involved in coffee production or consumption from 1990 to 2019.
+
+- Coffee Yield per ha https://www.fao.org/faostat/en/#data.
+
+FAOSTAT provides food and agriculture data for over 245 countries and territories and covers all FAO regional groupings from 1961 to the most recent year available. We particularly use coffee production and coffee yield for the same period as the ICO data. 
 
 #### Data Cleaning
 
