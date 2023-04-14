@@ -10,7 +10,7 @@ This project is part of The Erdös Institute's data visualization mini-course. J
 
 ## Methods
 - Data merging: python
-- Data Visualization: python, Tableaux
+- Data Visualization: python, Tableau
 - Statistical Analysis
 
 ## Data
