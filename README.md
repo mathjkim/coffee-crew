@@ -6,7 +6,7 @@ We analyze historical data on the global coffee trade from the [International Co
 <img src="image/coffee_cover_image.jpg" width = "576" height="360" title = "Coffee Trend" />
  </p>
 
-This project is part of The Erdös Institute's data visualization mini-course. Jimin Kim, Parham Hamidi, Anirban Sharma, and Elizabeth Campolongo collaborated to make a Tableaux story and presented it in a 2-minute video. 
+This project is part of The Erdös Institute's data visualization mini-course. Jimin Kim, Parham Hamidi, Anirban Sharma, and Elizabeth Campolongo collaborated to make a [Tableaux story](https://public.tableau.com/shared/GNH6W88XD?:display_count=n&:origin=viz_share_link) and presented it in a 2-minute video. 
 
 ## Methods
 - Data merging: python
