@@ -1,6 +1,7 @@
 # Coffee Trading Trend Analysis
 
-We analyze historical data on the global coffee trade from the [International Coffee Organization (ICO)](https://www.ico.org/new_historical.asp) and the [Food and Agriculture Organization (FAO) of the United Nations](https://www.fao.org). We make an interactive dashboard presenting production, consumption, exports, imports, and price for different countries and years.
+For this project, we analyzed historical data on the global coffee trade from the [International Coffee Organization (ICO)](https://www.ico.org/new_historical.asp) and the [Food and Agriculture Organization (FAO) of the United Nations](https://www.fao.org). We made an interactive dashboard presenting production, consumption, exports, imports, and price for different countries and years. Specifically, we did a cross regional analysis on price paid to growers by coffee type and imports, looked at production trends over time, land efficiency of coffee producing countries, and compared domestic consumption to population growth, evaluating changes in per capita consumption. 
+
 
 <p align="center">
 <img src="image/coffee_cover_image.jpg" width = "576" height="360" title = "Coffee Trend" />
